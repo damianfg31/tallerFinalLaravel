@@ -1,6 +1,6 @@
 @extends('app')
 @section('content')
-<h1 class="text-primary">Lista de Monedas en el Mundo</h1>
+<h1 class="text-primary" style="color: #17202A;">Lista de Monedas en el Mundo</h1>
  
 <table class="table table-bordered" id="tableMonedas">
   <thead>
@@ -20,7 +20,7 @@
             <td class="text-center">{{ $moneda->description }}</td>
             <td class="text-center">{{ $moneda->isactive}}</td>
             <td>
-                <a href="{{ route('monedas.show', $moneda->idcurrency) }}" class="btn btn-info">Ver más</a>
+                <a href="{{ route('monedas.show', $moneda->idcurrency) }}" class="btn btn-info" style="background-color: #16A085">Ver más</a>
  
             </td>
         </tr>

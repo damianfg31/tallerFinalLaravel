@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Taller Final</title>
+    <title>Taller Final - Economic World</title>
 
     <!-- Custom CSS -->
     @section('styles_laravel')
@@ -15,7 +15,7 @@
  
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
     @show
  
     @yield('mis_estilos')
@@ -30,20 +30,20 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{url('/')}}">Customerdb Laravel</a>
+            <a class="navbar-brand" href="{{url('/')}}">Economic World</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="disabled" href="#">Empresas</a></li>
-                    <li><a class="disabled" href="#">Clientes</a></li>
+                    <li><a class="disabled" href="#">Nuestros Usuarios</a></li>
                     <li><a href="#">Países</a></li>
                     <li><a class="active" href="{{url('/monedas')}}">Monedas</a></li>
-                    <li><a href="#">Idiomas</a></li>
-                    <li><a href="#">Formas de pago</a></li>
+                    <li><a href="#">Inversiones</a></li>
+                    <li><a href="#">Formas de Pago</a></li>
                     <li><a href="#">Ayuda</a></li>
                 </ul>
                 <form class="navbar-form navbar-right">
-                    <input type="text" class="form-control" placeholder="Search...">
+                    <input type="text" class="form-control" placeholder="Buscar...">
                     </form>
             </div>
         </div>

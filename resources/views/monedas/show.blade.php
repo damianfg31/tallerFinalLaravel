@@ -1,22 +1,23 @@
 @extends('app')
 @section('content')
 
-<h1>
+<h1  style="color: #17202A;">
     Descripción Moneda: "{{ $moneda->currency}}"
 </h1>
    
-  <p>Id moneda: {{ $moneda->idcurrency}}</p>
-  <p>Moneda: {{ $moneda->currency}}</p>
-  <p>Descripción: {{ $moneda->description }}</p>
-  <p>Activa: {{ $moneda->isactive}}</p>
-  <p>Iso: {{$moneda->isocode}}</p>
-  <p>Símbolo {{$moneda->cursymbol}}</p>
-  <p>Precisión: {{$moneda->precisionstd}}</p>
-  <p>Precisión costes: {{$moneda->precisioncost}}</p>
-  <p>Precisión precio: {{$moneda->precisionprize}}</p>
-  <p>Fecha creación: {{$moneda->created_at }}</p>
+  <p> <b>Id moneda:</b> {{ $moneda->idcurrency}}</p>
+  <p><b>Moneda:</b> {{ $moneda->currency}}</p>
+  <p><b>Descripción:</b> {{ $moneda->description }}</p>
+  <p><b>Activa:</b> {{ $moneda->isactive}}</p>
+  <p><b>Iso:</b> {{$moneda->isocode}}</p>
+  <p><b>Símbolo:</b> {{$moneda->cursymbol}}</p>
+  <p><b>Precisión:</b> {{$moneda->precisionstd}}</p>
+  <p><b>Precisión costes:</b> {{$moneda->precisioncost}}</p>
+  <p><b>Precisión precio:</b> {{$moneda->precisionprize}}</p>
+  <p><b>Fecha creación:</b> {{$moneda->created_at }}</p>
   <hr>
    
-  <a href="{{ route('monedas.index') }}">Volver a Inicio</a>
-  <a href="{{ route('monedas.show', $moneda->idcurrency) }}">Actualizar Página</a>
+  <b><a style="color: #16A085" href="{{ route('monedas.index') }}">Volver a Inicio</a></b>
+  <br>
+  <b> <a style="color: #16A085" href="{{ route('monedas.show', $moneda->idcurrency) }}">Actualizar Página</a></b>
   @stop

@@ -20,7 +20,7 @@
             <td class="text-center">{{ $moneda->description }}</td>
             <td class="text-center">{{ $moneda->isactive}}</td>
             <td>
-                <a href="{{ route('monedas.show', $moneda->idcurrency) }}" class="btn btn-info" style="background-color: #16A085">Ver más</a>
+                <a href="{{ route('monedas.show', $moneda->idcurrency) }}" class="btn btn-info" style="background-color: #16A085">Ver más <i class="fas fa-info-circle"></i></a>
  
             </td>
         </tr>

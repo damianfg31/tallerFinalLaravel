@@ -76,7 +76,7 @@
         <div class="flex-center position-ref full-height">
             <div class="content">
                 <div class="title m-b-md">
-                    Economic World 
+                    Economic World <i class="fas fa-globe-americas"></i> 
                 </div>
 
                 <div class="links">

@@ -24,27 +24,27 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid">
             <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{url('/')}}">Economic World</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="{{url('/')}}">Economic World <i class="fas fa-globe-americas"></i></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="disabled" href="#">Empresas</a></li>
-                    <li><a class="disabled" href="#">Nuestros Usuarios</a></li>
-                    <li><a href="#">Países</a></li>
-                    <li><a class="active" href="{{url('/monedas')}}">Monedas</a></li>
-                    <li><a href="#">Inversiones</a></li>
-                    <li><a href="#">Formas de Pago</a></li>
-                    <li><a href="#">Ayuda</a></li>
+                    <li><a class="disabled" href="#">Empresas <i class="fas fa-building"></i> </a></li>
+                    <li><a class="disabled" href="#">Nuestros Usuarios <i class="fas fa-user-tie"></i> </a></li>
+                    <li><a href="#">Países <i class="fas fa-flag"></i> </a></li>
+                    <li><a class="active" href="{{url('/monedas')}}">Monedas <i class="fas fa-dollar-sign"></i> </a></li>
+                    <li><a href="#">Inversiones <i class="far fa-chart-bar"></i> </a></li>
+                    <li><a href="#">Formas de Pago <i class="fas fa-money-check-alt"></i> </a></li>
+                    <li><a href="#">Ayuda <i class="fas fa-question"></i> </a></li>
                 </ul>
                 <form class="navbar-form navbar-right">
                     <input type="text" class="form-control" placeholder="Buscar...">
-                    </form>
+                </form>
             </div>
         </div>
     </nav>
@@ -62,6 +62,6 @@
     <!-- Scripts -->
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/bootstrap.min.js"></script>
-
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
 </body>
 </html>

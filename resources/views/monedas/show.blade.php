@@ -2,7 +2,7 @@
 @section('content')
 
 <h1  style="color: #17202A;">
-    Descripción Moneda: "{{ $moneda->currency}}"
+  <i class="fas fa-info-circle"></i> Descripción Moneda: "{{ $moneda->currency}}"
 </h1>
    
   <p> <b>Id moneda:</b> {{ $moneda->idcurrency}}</p>

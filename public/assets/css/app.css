@@ -16,6 +16,9 @@ body {
     color: #E5E5E4;
   }
 
+  #navbar ul{
+    font-size: 13px;
+  }
    
   /*
    * Configuración de Sidebar
